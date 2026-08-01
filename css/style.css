@@ -72,3 +72,11 @@ footer{
     padding:20px;
 
 }
+.mueble{
+    cursor: pointer; /* Esto hace que cuando se pone encima el cursor del mueble este cambie de color*/
+    transition: 0.3;
+}
+
+.mueble:hover {
+    fill:#42A5F5;
+}

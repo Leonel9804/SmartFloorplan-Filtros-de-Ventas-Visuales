@@ -30,34 +30,26 @@
 
         <section>
             <!--Las lineas id,width,heigth y viewbox nos da el tamaño del plano-->
-            <SVG
-                id="plano"  
-                width="900" 
-                height="600"
-                viewBox="0 0 900 600">   
+            <SVG id="plano" width="900" height="600" viewBox="0 0 900 600" fill="#FAFAFA">
                 <!--Un texto para indicar la entrada-->
-                <text 
-                x="370"
-                y="40"
-                font-size="24"
-                fill="Black">
-                ENTRADA
-                </text>
+                <text x="400" y="35" font-size="16" fill="middle">🚪</text>
+                <text x="400" y="60" font-sixe="24" font-weight="bold" text-anchor="middle"
+                    fill="#2E7D32">ENTRADA</text>
                 <!--Aparece aqui mi cuadro simulando el mueble
                 Stroke nos da el color del borde y stroke-width nos da el grosor del borde
                 Se agrega class para agrupar una elementos llamados muebles-->
                 <!--Rect dibuja un rectangulo-->
-                <rect 
-                id="M01"
-                class="mueble"
-                x="100"
-                y="80"
-                width="100"
-                height="50"
-                fill="#BDBDBD"
-                stroke="#424242" 
-                stroke-width="2"/>
+                <!--Aqui se dibuja un pasillo principal vertical y horizontal-->
+                <rect x="420" y="70" width="60" height="420" fill="#ECEFF1" />
+                <rect x="70" y="290" width="700" height="50" fill="#ECEFF1" />
+                <!--Creacion de las cajas-->
+                <rect x="340" y="520" width="180" height="45" rx="8" fill="#FFD54F" stroke="#555" stroke-width="2" />
 
+                <text x="430" y="548" text-anchor="middle" font-size="18" font-weight="bold">
+
+                    🛒 CAJAS
+
+                </text>
             </SVG>
         </section>
 
@@ -65,12 +57,12 @@
 
     <footer>
         <div id="info">
-        Información del mueble
+            Información del mueble
         </div>
     </footer>
 
-<script src="data/muebles.js"></script>
-<script src="js/app.js"></script>
+    <script src="data/muebles.js"></script>
+    <script src="js/app.js"></script>
 
 </body>
 

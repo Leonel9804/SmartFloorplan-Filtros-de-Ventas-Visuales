@@ -108,7 +108,7 @@ const muebles = [
         ancho: 100,
         alto: 50,
         productos: [
-            { nombre: "Fieltro", categoria: "Tela", ventas: 1120, stock: 27 },
+            { nombre: "Fieltro", categoria: "Tela", ventas: 3000, stock: 27 },
             { nombre: "Yute", categoria: "Tela", ventas: 640, stock: 18 }
         ]
     },

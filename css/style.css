@@ -1,82 +1,114 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Arial, Helvetica, sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
+body {
 
-    background:#ECEFF1;
+    background: #ECEFF1;
 
-    height:100vh;
+    height: 100vh;
 
-    display:flex;
+    display: flex;
 
-    flex-direction:column;
-
-}
-
-header{
-
-    background:#1565C0;
-
-    color:white;
-
-    padding:20px;
+    flex-direction: column;
 
 }
 
-main{
+header {
 
-    flex:1;
+    background: #990e21;
 
-    display:flex;
+    color: white;
 
-}
-
-aside{
-
-    width:280px;
-
-    background:white;
-
-    border-right:1px solid #CCC;
-
-    padding:20px;
+    padding: 20px;
 
 }
 
-section{
+main {
 
-    flex:1;
+    flex: 1;
 
-    background:#F8F9FA;
-
-    display:flex;
-
-    justify-content:center;
-
-    align-items:center;
+    display: flex;
 
 }
 
-footer{
+aside {
 
-    height:120px;
+    width: 280px;
 
-    background:white;
+    background: white;
 
-    border-top:1px solid #CCC;
+    border-right: 1px solid #CCC;
 
-    padding:20px;
+    padding: 20px;
 
 }
-.mueble{
-    cursor: pointer; /* Esto hace que cuando se pone encima el cursor del mueble este cambie de color*/
+
+section {
+
+    flex: 1;
+
+    background: #F8F9FA;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+footer {
+
+    height: 120px;
+
+    background: white;
+
+    border-top: 1px solid #CCC;
+
+    padding: 20px;
+
+}
+
+.mueble {
+    cursor: pointer;
+    /* Esto hace que cuando se pone encima el cursor del mueble este cambie de color*/
     transition: 0.3;
 }
 
 .mueble:hover {
-    fill:#42A5F5;
+    fill: #42A5F5;
+}
+
+button {
+
+    width: 180px;
+
+    padding: 10px;
+
+    margin-top: 10px;
+
+    cursor: pointer;
+
+    border: none;
+
+    border-radius: 8px;
+
+    background: #c01531;
+
+    color: white;
+
+    font-size: 15px;
+
+    transition: .3s;
+
+}
+
+button:hover {
+
+    background: #0D47A1;
+
 }
